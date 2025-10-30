@@ -8,7 +8,7 @@ def get_connection():
     """
     try:
         conn = mysql.connector.connect(
-            #add your own details!
+            #add your own details
         )
         return conn
     except Error as e:
